@@ -9,39 +9,66 @@
   <title>Frontend Mentor | Results summary component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="index.css" />
 </head>
 <body>
+  <header>
+    <p class="header__title">Your Result</p>
+    <div class="circle">
+      <div class="circle__volume">
+        76
+      </div>
+      <div class="circle__max">
+        of 100
+      </div>
+    </div>
+    <div class="header__heading">
+      Great
+    </div>
+    <div class="header__description">
+      You scored higher than 65% of the people who have taken these tests.
+    </div>
+  </header>
+  <main>
+    <p class="main_summary">Summary</p>
 
-  Your Result
-  76
-  of 100
+    <div class="item item__one">
+      <div class="li__item">
+        <img src="./assets/images/icon-reaction.svg" />
+        <p>Reaction</p>
+      </div>
+      <p class="li__value">80 <span>/ 100</span></p>
+    </div>
 
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
+    <div class="item item__two">
+      <div class="li__item">
+        <img src="./assets/images/icon-memory.svg" />
+        <p>Memory</p>
+      </div>
+      <p class="li__value">92 <span>/ 100</span></p>
+    </div>
 
-  Reaction
-  80 / 100
+    <div class="item item__three">
+      <div class="li__item">
+        <img src="./assets/images/icon-verbal.svg" />
+        <p>Verbal</p>
+      </div>
+      <p class="li__value">61 <span>/ 100</span></p>
+    </div>
 
-  Memory
-  92 / 100
-
-  Verbal
-  61 / 100
-
-  Visual
-  72 / 100
-
-  Continue
-  
+    <div class="item item__four">
+      <div class="li__item">
+        <img src="./assets/images/icon-visual.svg" />
+        <p>Visual</p>
+      </div>
+      <p class="li__value">72 <span>/ 100</span></p>
+    </div>
+    
+    <button>Continue</button>
+  </main>  
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Andrei Pavalachi</a>.
   </div>
 </body>
 </html>
