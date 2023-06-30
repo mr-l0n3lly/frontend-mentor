@@ -155,6 +155,10 @@ span {
     color: var(--cobalt-blue);
 }
 
+p {
+    padding: 0;
+}
+
 button {
     width: 100%;
     padding: 18px 32px;
@@ -191,23 +195,40 @@ button:hover {
         flex-direction: row;
         align-self: center;
         max-width: 90%;
-        width: 600px;
+        width: 700px;
 
         border-radius: 25px;
-        -webkit-box-shadow: 2px 0px 18px -6px rgba(0,0,0,0.75);
-        -moz-box-shadow: 2px 0px 18px -6px rgba(0,0,0,0.75);
-        box-shadow: 2px 0px 18px -6px rgba(0,0,0,0.75);
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 10px 29px 0px;
         overflow: hidden;
     }
 
     main {
-        width: 50%;
+        width: 55%;
         height: 100%;
+        padding: 25px;
     }
 
     header {
-        width: 50%;
+        width: 45%;
         margin: 0;
         border-radius: 0 25px 25px 0;
+        padding-top: 25px;
+    }
+
+    .header__description {
+        font-size: 1.1rem;
+    }
+
+    .header__heading {
+        font-size: 1.4rem;
+    }
+
+    .circle {
+        width: 180px;
+        height: 180px;
+    }
+
+    .main_summary {
+        font-size: large;
     }
 }
