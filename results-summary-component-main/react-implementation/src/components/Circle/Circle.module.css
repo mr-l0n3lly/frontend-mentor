@@ -1,0 +1,31 @@
+.circle {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, var(--violet-blue), var(--persian-blue));
+}
+
+.circleVolume {
+    font-weight: 800;
+    font-size: 3.5rem;
+    color: var(--white);
+}
+
+.circleMax {
+    font-weight: 700;
+    font-size: 1rem;
+    color: hsl(241, 100%, 82%);
+}
+
+
+@media screen and (min-width: 600px) {
+    .circle {
+        width: 180px;
+        height: 180px;
+    }
+}

@@ -1,0 +1,28 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.itemContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+.itemContent img {
+    margin-right: 10px;
+}
+
+.itemValue {
+    color: var(--dark-gray-blue);
+    font-weight: 800;
+}
+
+.itemSpan {
+    color: hsl(224, 30%, 70%);
+    font-weight: 700;
+}

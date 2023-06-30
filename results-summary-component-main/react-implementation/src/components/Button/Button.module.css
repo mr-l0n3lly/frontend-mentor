@@ -1,0 +1,16 @@
+button {
+    width: 100%;
+    padding: 18px 32px;
+    color: var(--white);
+    border-radius: 45px;
+    margin: 20px auto;
+    background-color: var(--dark-gray-blue);
+    font-size: large;
+    font-weight: 500;
+    border: none;
+}
+
+button:hover {
+    background: linear-gradient(to bottom, var(--light-slate-blue), var(--light-royal-blue));
+    cursor: pointer;
+}

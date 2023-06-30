@@ -1,0 +1,19 @@
+.itemOne {
+  background-color: hsl(0, 100%, 98%);
+  color: var(--light-red);
+}
+
+.itemTwo {
+  background-color: hsl(39, 100%, 98%);
+  color: var(--orange-yellow);
+}
+
+.itemThree {
+  background-color: hsl(166, 100%, 98%);
+  color: var(--green-teal);
+}
+
+.itemFour {
+  background-color: hsl(234, 85%, 98%);
+  color: var(--cobalt-blue);
+}
