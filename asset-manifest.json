@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/frontend-mentor/results-summary-component-main/static/css/main.083f19e7.css",
+    "main.js": "/frontend-mentor/results-summary-component-main/static/js/main.9124ca98.js",
+    "static/js/787.247d8fe9.chunk.js": "/frontend-mentor/results-summary-component-main/static/js/787.247d8fe9.chunk.js",
+    "static/media/HankenGrotesk-VariableFont_wght.ttf": "/frontend-mentor/results-summary-component-main/static/media/HankenGrotesk-VariableFont_wght.d642a5d85689aa7d33db.ttf",
+    "index.html": "/frontend-mentor/results-summary-component-main/index.html",
+    "static/media/icon-memory.svg": "/frontend-mentor/results-summary-component-main/static/media/icon-memory.22a9e0501e58960f3c349cd96fcf108f.svg",
+    "static/media/icon-visual.svg": "/frontend-mentor/results-summary-component-main/static/media/icon-visual.61fc2697d5094b6e396276b1a1597c86.svg",
+    "static/media/icon-verbal.svg": "/frontend-mentor/results-summary-component-main/static/media/icon-verbal.cc1204a0b0559da591a3ea6e99c5cf50.svg",
+    "static/media/icon-reaction.svg": "/frontend-mentor/results-summary-component-main/static/media/icon-reaction.0c1d6b98b4559ba72276d9ceda14692d.svg",
+    "main.083f19e7.css.map": "/frontend-mentor/results-summary-component-main/static/css/main.083f19e7.css.map",
+    "main.9124ca98.js.map": "/frontend-mentor/results-summary-component-main/static/js/main.9124ca98.js.map",
+    "787.247d8fe9.chunk.js.map": "/frontend-mentor/results-summary-component-main/static/js/787.247d8fe9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.083f19e7.css",
+    "static/js/main.9124ca98.js"
+  ]
+}
