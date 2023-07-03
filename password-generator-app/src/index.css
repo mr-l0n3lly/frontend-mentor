@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'JetBrainsMono';
+  src: url('./assets/fonts/JetBrainsMono-VariableFont_wght.ttf');
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'JetBrainsMono', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+:root {
+  --dark-gray: #24232c;
+  --medium-dark-gray: #817D92;
+  --light-gray: #e6e5ea;
+  --black-gray: #18171f;
+
+  --light-green: #a4ffaf;
+  --light-red: #f64a4a;
+  --light-orange: #fb7c58;
+  --light-yellow: #f8cd65;
+}
+/*
+* {
+  border: 1px solid red;
+}*/

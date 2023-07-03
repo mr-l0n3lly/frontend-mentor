@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: var(--light-green);
+    padding: 16px;
+    align-content: center;
+    box-sizing: border-box;
+    border: 4px solid var(--light-green);
+}
+
+.text {
+    color: var(--black-gray);
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.container:hover {
+    cursor: pointer;
+    background: none;
+    border: 4px solid var(--light-green);
+    color: var(--light-green);
+}
+
+.container svg path {
+    fill: var(--dark-gray);
+}
+
+.container:hover .text {
+    color: var(--light-green);
+}
+
+.container:hover svg path {
+    fill: var(--light-green);
+    color: var(--light-green);
+}
+
+.image {
+    width: 12px;
+    height: 12px;
+    align-self: center;
+    margin-left: 18px;
+    color: var(--light-green);
+}

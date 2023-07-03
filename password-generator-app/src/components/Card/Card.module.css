@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: var(--black-gray);
+    max-width: 540px;
+    min-height: 300px;
+    height: 630px;
+    margin: 0 20px;
+}
+
+.containerParts {
+    background: var(--dark-gray);
+    padding: 32px;
+}
+
+.cardTitle {
+    color: var(--medium-dark-gray);
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 375px) {
+    .cardTitle {
+        font-size: 1rem;
+    }
+
+    .container {
+        width: auto;
+    }
+}

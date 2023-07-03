@@ -1,0 +1,58 @@
+.passInput {
+    font-size: 2rem;
+    background: none;
+    padding: 8px 16px;
+    border-radius: 0;
+    border: 0;
+    color: var(--light-gray);
+    outline: none;
+    width: 100%;
+    font-family: 'JetBrainsMono', sans-serif;
+}
+
+.textInput {
+    font-family: 'JetBrainsMono', sans-serif;
+    display: flex;
+    align-content: stretch;
+    flex-direction: row;
+    background: var(--dark-gray);
+    padding: 8px 16px;
+}
+
+.textInputButton {
+    background: none;
+    border: 0;
+    position: relative;
+}
+
+.textInputButton:hover {
+    cursor: pointer;
+}
+
+.textInputButton svg path {
+    fill: var(--light-green);
+}
+
+.textInputButton:hover svg path {
+    fill: var(--light-gray);
+}
+
+.flowingAlert {
+    position: absolute;
+    top: 20px;
+    left: -75px;
+    text-transform: uppercase;
+    color: var(--light-green);
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 375px) {
+    .flowingAlert {
+        font-size: 1rem;
+    }
+
+    .passInput {
+        font-size: 1.5rem;
+    }
+}
