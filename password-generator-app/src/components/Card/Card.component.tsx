@@ -60,10 +60,10 @@ export const Card = () => {
         <div className={styles.containerParts}>
           <LengthPicker pickerValue={picker} setPickerValue={setPicker} min={6} max={16} />
           <div>
-            <Checkbox clicked={uppercase} setClicked={setUppercase}  />
-            <Checkbox clicked={lowercase} setClicked={setLowercase} />
-            <Checkbox clicked={numbers} setClicked={setNumbers} />
-            <Checkbox clicked={symbols} setClicked={setSymbols} />
+            <Checkbox text={"Include Uppercase Letters"} clicked={uppercase} setClicked={setUppercase}  />
+            <Checkbox text={"Include Lowercase Letters"} clicked={lowercase} setClicked={setLowercase} />
+            <Checkbox text={"Include Numbers"} clicked={numbers} setClicked={setNumbers} />
+            <Checkbox text={"Include Symbols"} clicked={symbols} setClicked={setSymbols} />
           </div>
           <PasswordStrength full={+uppercase + +lowercase + +numbers + +symbols} total={4} />
           <Button onClick={generatePasswordHandler} />

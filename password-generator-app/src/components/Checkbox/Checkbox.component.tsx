@@ -3,6 +3,7 @@ import styles from './Checbox.module.css'
 interface CheckboxProps {
   clicked: boolean;
   setClicked: (a: boolean) => void;
+  text: string;
 }
 
 export const Checkbox = (props: CheckboxProps) => {
@@ -18,7 +19,7 @@ export const Checkbox = (props: CheckboxProps) => {
           </svg>
         }
       </div>
-      <p>Include Uppercase Letters</p>
+      <p>{props.text}</p>
     </div>
   )
 }
