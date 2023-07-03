@@ -16,7 +16,7 @@ export const LengthPicker = (props: LengthPickerProps) => {
         <p>Character Length</p>
         <p className={styles.pickerText}>{props.pickerValue}</p>
       </div>
-      <input className={styles.picker} min={6} max={16} value={props.pickerValue} type="range" onChange={(e) => {
+      <input className={styles.picker} min={props.min} max={props.max} value={props.pickerValue} type="range" onChange={(e) => {
         e.target.style.backgroundSize = (+e.target.value - props.min) * 100 / (props.max - props.min) + '%';
         props.setPickerValue(+e.target.value)
       }} />

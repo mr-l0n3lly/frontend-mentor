@@ -39,7 +39,7 @@ const generatePassword = (len: number, upper: boolean, lower: boolean, numbers: 
 }
 
 export const Card = () => {
-  const [picker, setPicker] = useState(6);
+  const [picker, setPicker] = useState(0);
   const [password, setPassword] = useState('');
 
   const [uppercase, setUppercase] = useState(false);
@@ -58,7 +58,7 @@ export const Card = () => {
       <div className={styles.container}>
         <TextInput inputValue={password} setInputValue={setPassword} />
         <div className={styles.containerParts}>
-          <LengthPicker pickerValue={picker} setPickerValue={setPicker} min={6} max={16} />
+          <LengthPicker pickerValue={picker} setPickerValue={setPicker} min={0} max={16} />
           <div>
             <Checkbox text={"Include Uppercase Letters"} clicked={uppercase} setClicked={setUppercase}  />
             <Checkbox text={"Include Lowercase Letters"} clicked={lowercase} setClicked={setLowercase} />

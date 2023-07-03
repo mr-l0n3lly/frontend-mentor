@@ -11,9 +11,9 @@
     border-style: solid;
     border-width: 2px;
     border-color: var(--light-gray);
-    width: 8px;
+    width: 10px;
     height: 26px;
-    margin: 4px;
+    margin: 2px;
     align-self: center;
 }
 
